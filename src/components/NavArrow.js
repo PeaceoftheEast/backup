@@ -5,7 +5,7 @@ import React from 'react';
 
 const NavArrow = ({onClick, style, iconName}) => {
   return (
-    <div className={style} onClick={onClick}>
+    <div role= "button" tabIndex="0" onClick={onClick} onKeyDown={onClick}>
       <i className={iconName}/>
     </div>
   )

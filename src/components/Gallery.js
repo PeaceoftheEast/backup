@@ -2,7 +2,6 @@
  * Created by will on 23/01/19.
  */
 import React from 'react';
-import pic03 from '../images/pic03.jpg'
 import ImageSpinner from './ImageSpinner';
 import slide1 from '../images/gallery/slide-1.png' ;
 import slide2 from '../images/gallery/newslide2.png' ;

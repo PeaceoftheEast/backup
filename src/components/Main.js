@@ -4,16 +4,30 @@ import PropTypes from 'prop-types'
 import MediaIcons from './MediaIcons';
 import Gallery from './Gallery';
 
-import pic01 from '../images/pic01.jpg'
 import banhpic from '../images/food_header_image.png'
 import viethead from '../images/frontage_4.jpeg'
 import hermes from '../images/hermes.png'
 import triplePoint from '../images/triple-point.png'
 
 class Main extends React.Component {
+
+  handleClick = () => {
+    this.focus();
+  } 
+  handleKeyDown = (ev) => {
+    if (ev.keyCode=== 13) {
+        this.focus()
+        }
+  }
+  focus = () => this.ref.focus;
+  
+  handleRef = (component) => {
+    this.ref = component;
+  };
+  
   render() {
 
-    let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>
+    let close = <div role="button" tabIndex="0" onClick={this.handleClick} onKeyDown={this.handleKeyDown}> {this.props.onCloseArticle()}</div>
 
     return (
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
@@ -23,8 +37,8 @@ class Main extends React.Component {
           <span className="image main"><img src={viethead} alt="" /></span>
           <p>CATER-INK have been providing a professional service at a range of events of different sizes, offering a fully-flexible menu for specific needs and requirements. Some of the private events we have catered for include...</p>
             <div className="image-container">
-              <img src={hermes} />
-              <img src={triplePoint} />
+              <img src={hermes} alt="hemes logo"/>
+              <img src={triplePoint} alt="triple point logo"/>
             </div>
           <p></p>  
           <p>Our experience within the catering industry, event catering and global food travel over the years, has allowed us to continually surpass expectation and satisfy the masses.</p>
@@ -51,22 +65,22 @@ class Main extends React.Component {
         <article id="contact" className={`${this.props.article === 'contact' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Contact Us</h2>
           <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
-          <input type="hidden" name="bot-field" value="contact" />
+          <input type="hidden" aria-label="hidden" name="bot-field" value="contact" />
             <div className="field half first">
               <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
+              <input type="text" aria-label="text" name="name" id="name" />
             </div>
             <div className="field half">
               <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
+              <input type="text" aria-label="email" name="email" id="email" />
             </div>
             <div className="field">
               <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
+              <textarea name="message" aria-label="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
-              <li><input type="submit" value="Send Message" className="special" /></li>
-              <li><input type="reset" value="Reset" /></li>
+              <li><input type="submit" aria-label="submit" value="Send Message" className="special" /></li>
+              <li><input type="reset" aria-label="reset" value="Reset" /></li>
             </ul>
           </form>
           <MediaIcons/>
