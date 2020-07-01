@@ -9,8 +9,8 @@ import ncass from '../images/ncass.png'
 const Footer = (props) => (
     <footer id="footer" style={props.timeout ? {display: 'none'} : {}}>
         <div className="certificates">
-          <img src={ncass}/>
-         <img src={hygiene}/>
+          <img src={ncass} alt= "ncass logo"/>
+         <img src={hygiene} alt= "hygiene logo"/>
         </div>
         <MediaIcons/>
 
