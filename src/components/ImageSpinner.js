@@ -38,12 +38,11 @@ class ImageSpinner extends React.Component {
   }
 
   render() {
-    return ( 
+    return (
       <div className="image-spinner">
-        <div role="button" aria-label="Handle Left Nav" tabIndex="0" onClick={() => this.handleLeftNav()} onKeyDown={this.handleLeftNav}><img src={this.props.images[this.state.imageIndex]} alt="LeftNav"/></div>
-        <NavArrow style={{NavArrow}} iconName="icon fa-caret-left" onClick={() => this.handleLeftNav()}/>
-        <div role="button" aria-label="Handle Right Nav" tabIndex="0" onClick={() => this.handleRightNav()} onKeyDown={this.handleRightNav}><img src={this.props.images[this.state.imageIndex]} alt="RightNav"/></div>
-        <NavArrow style={{NavArrow}} iconName="icon fa-caret-right" onClick={() => this.handleRightNav()}/>
+        <NavArrow style="left-arrow" iconName="icon fa-caret-left" onClick={() => this.handleLeftNav()}/>
+        <div className="image" onClick={() => this.handleRightNav()}><img src={this.props.images[this.state.imageIndex]}/></div>
+        <NavArrow style="right-arrow" iconName="icon fa-caret-right" onClick={() => this.handleRightNav()}/>
       </div>)
   }
 
