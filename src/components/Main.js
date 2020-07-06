@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import MediaIcons from './MediaIcons';
 import Gallery from './Gallery';
 
-import banhpic from '../images/food_header_image.png'
+import banhpic from '../images/food_header_image-min.png'
 import viethead from '../images/frontage_4.jpeg'
 import hermes from '../images/hermes.png'
 import triplePoint from '../images/triple-point.png'
