@@ -28,7 +28,7 @@ class Main extends React.Component {
   
   render() {
 
-    let close = <div role="button" tabIndex="0" onClick={this.handleClick} onKeyDown={this.handleKeyDown}> {this.props.onCloseArticle}</div>
+    let close = <div className="close" onClick={() => {this.props.onCloseArticle()}}></div>
 
     return (
       <div ref={this.props.setWrapperRef} id="main" style={this.props.timeout ? {display: 'flex'} : {display: 'none'}}>
