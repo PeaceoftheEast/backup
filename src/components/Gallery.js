@@ -5,7 +5,7 @@ import React from 'react';
 import ImageSpinner from './ImageSpinner';
 import slide1 from '../images/gallery/slide-1-min.png' ;
 import slide2 from '../images/gallery/newslide2-min.png' ;
-import slide3 from '../images/frontage_1.jpg' ;
+import slide3 from '../images/frontage_1-min.jpg' ;
 import slide4 from '../images/gallery/newslide1-min.png' ;
 import slide5 from '../images/gallery/newslide4-min.png' ;
 import slide6 from '../images/gallery/newslide3-min.png' ;
