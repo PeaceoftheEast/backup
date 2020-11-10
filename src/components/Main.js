@@ -38,7 +38,7 @@ class Main extends React.Component {
           <span className="image main"><img src={viethead} alt="" /></span>
           <p>CATER-INK have been providing a professional service at a range of events of different sizes, offering a fully-flexible menu for specific needs and requirements. Some of the private events we have catered for include...</p>
             <div className="image-container">
-              <img src={hermes} alt="hemes logo"/>
+              <img src={hermes} alt="hermes logo"/>
               <img src={triplePoint} alt="triple point logo"/>
             </div>
           <p></p>  
@@ -51,7 +51,7 @@ class Main extends React.Component {
           <h2 className="major">Food</h2>
           <span className="image main"><img src={banhpic} alt="" /></span>
           <p>Our Peace of the East unit serves up the best Banh mi this side of Saigon!</p>
-          <p>If you don't know about the iconic street food of Vietnam think hot Vietnamese sub crammed full with fresh salad, homemade sauces and either Lemongrass Chicken, Aubergine Katsu (Ve) and new for 2021 ...Hoisin Glazed Vegan Meatball (Ve).</p>
+          <p>If you don't know about the iconic street food of Vietnam think hot Vietnamese sub crammed full with freshly pickled veggies, homemade sauces and either Lemongrass Chicken, Chicken Katsu, Aubergine Katsu (Ve) and new for 2021 ...Hoisin Glazed Vegan Meatball (Ve).</p>
           <p>Our Banh mi's are the perfect fuel you can hold while carrying on the party!</p>
           <p>All our ingredients are of course fresh and of the highest quality. Not forgetting of course our fun and friendly staff who come with free big smiles!</p>
           <p>We also work alongside our local environmental group, Climate Action Ilkley, and we're continually looking to improve our sustainability. Through using local suppliers, reducing our packaging to a minimum and recycling all our cooking oil.</p>
