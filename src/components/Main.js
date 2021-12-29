@@ -51,7 +51,7 @@ class Main extends React.Component {
           <h2 className="major">Food</h2>
           <span className="image main"><img src={banhpic} alt="" /></span>
           <p>Our Peace of the East unit serves up popular favourite foods from the East</p>
-          <p>If you don't know about the iconic street food of Vietnam think hot Vietnamese sub crammed full with freshly pickled veggies, homemade sauces and either Lemongrass Chicken, Chicken Katsu, Aubergine Katsu (Ve) and new for 2021 ...BBQ Jackfruit (Ve).</p>
+          <p>We offer Chicken Katsu, Salt and Pepper Chicken Burgers, Duck Pancakes and the crowd pleaser Salt and Pepper Chips. We don't compromise when it comes to Vegan options both our delicious burgers can be substitued for a Vegan alternative!</p>
           <p>Our food is delicous, vibrant and is the perfect mix of being healthy and delicious!</p>
           <p>All our ingredients are of course fresh and of the highest quality. Not forgetting of course our fun and friendly staff who come with free big smiles!</p>
           <p>We also work alongside our local environmental group, Climate Action Ilkley, and we're continually looking to improve our sustainability. Through using local suppliers, reducing our packaging to a minimum and recycling all our cooking oil.</p>
