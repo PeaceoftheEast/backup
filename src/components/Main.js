@@ -42,7 +42,7 @@ class Main extends React.Component {
               <img src={triplePoint} alt="triple point logo"/>
             </div>
           <p></p>
-          <p>Our journey began in 2017, when Callum (the lankey beanpole in the picture!), was disatisfied with his job propspects post-university. He decided to use his experience in the event catering industry to couple his two loves; festivals and food!</p>
+          <p>Our journey began back in 2017, when Callum (the lankey beanpole in the picture!), was disatisfied with his job propspects post-university. He decided to use his experience in the event catering industry to couple his two loves; festivals and food!</p>
           <p>Since starting in what can only be described as a rollercoaster of a journey, with continual setbacks. With a little help from Callum's Dad, Ian, in helping wilth the building of our stall, and of course the Mother, Sandra who has been helping to promote the buisness as much as possible, we've managed to come out of the otherside hungrier than ever (and hopefully all our potential customers!)</p>
           <p>After several events we've been encouraged by the continual positive feedback we've recieved from both members of the public and fellow festival traders. It's a pleasure to see people thoroughly enjoying the years of hardwork and passion that has gone into building something new and exciting to the industry.</p>
           {close}
