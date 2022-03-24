@@ -36,14 +36,15 @@ class Main extends React.Component {
         <article id="intro" className={`${this.props.article === 'intro' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">About Us</h2>
           <span className="image main"><img src={viethead} alt="" /></span>
-          <p>CATER-INK have been providing a professional service at a range of events of different sizes, offering a fully-flexible menu for specific needs and requirements. Some of the private events we have catered for include...</p>
+          <p>CATER-INK have been providing a professional service at a range of events since 2019. Some of the private events we have catered for include...</p>
             <div className="image-container">
               <img src={hermes} alt="hermes logo"/>
               <img src={triplePoint} alt="triple point logo"/>
             </div>
           <p></p>
-          <p>Our experience within the catering industry, event catering and global food travel over the years, has allowed us to continually surpass expectation and satisfy the masses.</p>
-          <p>We've formed great working relationships with event organisers in the past and we are always happy to help out other traders. </p>
+          <p>Our journey began in 2017, when Callum (the lankey beanpole in the picture!), was disatisfied with his job propspects post-university. He decided to use his experience in the event catering industry to couple his two loves; festivals and food!</p>
+          <p>Since starting in what can only be described as a rollercoaster of a journey, with continual setbacks. With a little help from Callum's Dad, Ian, in helping wilth the building of our stall, and of course the Mother, Sandra who has been helping to promote the buisness as much as possible, we've managed to come out of the otherside hungrier than ever (and hopefully all our potential customers!)</p>
+          <p>After several events we've been encouraged by the continual positive feedback we've recieved from both members of the public and fellow festival traders. It's a pleasure to see people thoroughly enjoying the years of hardwork and passion that has gone into building something new and exciting to the industry.</p>
           {close}
         </article>
 
