@@ -10,12 +10,12 @@ import slide4 from '../images/gallery/newslide1-min.png' ;
 import slide5 from '../images/gallery/newslide5-min.png' ;
 import slide6 from '../images/gallery/newslide2-min.png' ;
 import slide7 from '../images/gallery/frontage_1_crop-min.jpg.png' ;  
-import slide8 from '../images/gallery/newslide6-min.png' ;
-import slide9 from '../images/gallery/slide-9-min.png' ;
+import slide8 from '../images/gallery/slide-9-min.png' ;
+import slide9 from '../images/gallery/REDUCED_FILE_SIZE_Festival_Menu_.jpg' ;
 import slide11 from '../images/gallery/slide-11-min.png' ;
 
 const Gallery = () => {
-  let images = [slide1, slide2, slide3, slide4, slide5, slide6, slide7];
+  let images = [slide1, slide2, slide3, slide4, slide5, slide6, slide7, slide8, slide9];
   return (
     <div>
       <h2 className="major">Gallery</h2>
