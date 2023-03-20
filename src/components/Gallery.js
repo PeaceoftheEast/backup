@@ -9,7 +9,7 @@ import slide3 from '../images/gallery/Sunshine_21.jpg' ;
 import slide4 from '../images/gallery/newslide1-min.png' ;
 import slide5 from '../images/gallery/newslide5-min.png' ;
 import slide6 from '../images/gallery/newslide2-min.png' ;
-import slide7 from '../images/gallery/frontage_1_crop-min.jpg.png' ;  
+import slide7 from '../images/gallery/frontage_1_crop-min.jpg' ;  
 import slide8 from '../images/gallery/slide-9-min.png' ;
 import slide9 from '../images/gallery/REDUCED_FILE_SIZE_Festival_Menu_.jpg' ;
 
