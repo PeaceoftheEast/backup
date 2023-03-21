@@ -4,7 +4,7 @@ import PropTypes from 'prop-types'
 import MediaIcons from './MediaIcons';
 import Gallery from './Gallery';
 
-import banhpic from '../images/food_header_image-min.png'
+import menu from '../images/menu.jpg'
 import viethead from '../images/frontage_4.jpeg'
 import hermes from '../images/hermes.png'
 import triplePoint from '../images/triple-point.png'
@@ -50,8 +50,8 @@ class Main extends React.Component {
 
         <article id="work" className={`${this.props.article === 'work' ? 'active' : ''} ${this.props.articleTimeout ? 'timeout' : ''}`} style={{display:'none'}}>
           <h2 className="major">Food</h2>
-          <span className="image main"><img src={banhpic} alt="" /></span>
           <p>Our Peace of the East unit is continuing on with our hugely successful menu from 2021.</p>
+          <span className="image main"><img src={menu} alt="" /></span>
           <p>Offering Chicken Katsu, Salt and Pepper Chicken Burgers, Duck Pancakes and the crowd pleaser Salt and Pepper Chips. Our menu has been designed to cater for as many dietary requirements as possible. We noticed that there can be limited options for vegans and have therefore provided 2 fantastic completely vegan options (along with all our sides) that we take just as much pride in!</p>
           <p>Our food is delicous, vibrant and is the perfect mix of being healthy and tasty</p>
           <p>All our ingredients are of course fresh and of the highest quality. Not forgetting of course our fun and friendly staff who come with free big smiles!</p>
