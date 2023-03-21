@@ -5,6 +5,7 @@ module.exports = {
     description: "A Gatsby.js V2 Starter based on Dimension by HTML5 UP"
   },
   plugins: [
+    "gatsby-plugin-netlify",
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
