@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
-    "@gatsbyjs/reach-router": "2.0.1",
+    "@gatsbyjs/reach-router": "^2.0.1",
     "gatsby": "5.7.0",
     "gatsby-image": "^3.11.0",
     "gatsby-plugin-manifest": "5.7.0",
@@ -14,7 +14,9 @@
     "gatsby-plugin-sharp": "5.7.0",
     "gatsby-source-filesystem": "5.7.0",
     "gatsby-transformer-sharp": "5.7.0",
+    "i": "^0.3.7",
     "immer": "^9.0.6",
+    "npm": "^9.6.2",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-helmet": "6.1.0"
